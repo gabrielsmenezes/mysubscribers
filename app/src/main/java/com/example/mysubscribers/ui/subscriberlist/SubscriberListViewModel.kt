@@ -1,4 +1,4 @@
-package com.example.mysubscribers.ui.subscriberslist
+package com.example.mysubscribers.ui.subscriberlist
 
 import androidx.lifecycle.ViewModel
 
