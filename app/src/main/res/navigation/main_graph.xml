@@ -8,7 +8,8 @@
               android:name="com.example.mysubscribers.ui.subscriber.SubscriberFragment"
               android:label="@string/subscriber_title"
               tools:layout="@layout/subscriber_fragment"/>
+
     <fragment android:id="@+id/subscriberListFragment"
               android:name="com.example.mysubscribers.ui.subscriberlist.SubscriberListFragment"
-              android:label="subscriber_list_fragment" tools:layout="@layout/subscriber_list_fragment"/>
+              android:label="@string/subscriber_list_title" tools:layout="@layout/subscriber_list_fragment"/>
 </navigation>

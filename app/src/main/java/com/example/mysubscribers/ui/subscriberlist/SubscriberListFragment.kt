@@ -10,6 +10,7 @@ import androidx.navigation.fragment.findNavController
 import com.example.mysubscribers.R
 import com.example.mysubscribers.data.db.AppDatabase
 import com.example.mysubscribers.data.db.dao.SubscriberDAO
+import com.example.mysubscribers.extensions.navigateWithAnimations
 import com.example.mysubscribers.repository.DatabaseDataSource
 import com.example.mysubscribers.repository.SubscriberRepository
 import kotlinx.android.synthetic.main.subscriber_list_fragment.*
@@ -46,7 +47,7 @@ class SubscriberListFragment : Fragment(R.layout.subscriber_list_fragment) {
 
     private fun configureViewListeners() {
         fabAddSubscriber.setOnClickListener {
-            findNavController().navigate(R.id.subscriberFragment)
+            findNavController().navigateWithAnimations(R.id.subscriberFragment)
         }
     }
 }
